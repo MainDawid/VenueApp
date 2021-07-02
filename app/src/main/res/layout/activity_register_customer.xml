@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterCustomerActivity">
+
+    <EditText
+        android:id="@+id/customer_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="@string/CustomerUsername" />
+
+    <EditText
+        android:id="@+id/customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_username"
+        android:layout_marginTop="40dp"
+        android:hint="@string/CustomerName" />
+
+    <EditText
+        android:id="@+id/customer_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_name"
+        android:layout_marginTop="40dp"
+        android:hint="@string/CustomerSurname" />
+
+    <EditText
+        android:id="@+id/customer_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_surname"
+        android:layout_marginTop="40dp"
+        android:hint="@string/Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/customer_repassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_password"
+        android:layout_marginTop="40dp"
+        android:hint="@string/RetypePassword"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/customer_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_repassword"
+        android:layout_marginTop="40dp"
+        android:text="@string/signUp" />
+
+    <Button
+        android:id="@+id/customer_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_register"
+        android:layout_marginTop="40dp"
+        android:text="@string/ExistingUser" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">VenueApp</string>
+    <string name="LoginOrRegister">Hello There! Sign in or create new account!</string>
+    <string name="ExistingUser">Existing User? Go to Sign In page!</string>
+    <string name="ExistingBand">Existing Band? Go to Sign In page!</string>
+
+    <string name="Login">Login</string>
+
+    <string name="SignIn">Sign In</string>
+    <string name="RegisterBand">Register Band</string>
+    <string name="RegisterCustomer">Register Customer</string>
+
+    <string name="AccountType">Choose account type and login.</string>
+    <string name="Customer">Customer</string>
+    <string name="Band">Band</string>
+    <string name="Admin">Admin</string>
+
+    <string name="UserName">User Name</string>
+    <string name="Password">Password</string>
+    <string name="RetypePassword">Retype Password</string>
+
+    <string name="BandUsername">Band Username</string>
+    <string name="BandName">Band Name</string>
+
+    <string name="CustomerUsername">Customer Username</string>
+    <string name="CustomerName">Customer Name</string>
+    <string name="CustomerSurname">Customer Surname</string>
+    <string name="WelcomeAdmin">Welcome, Admin.</string>
+    <string name="AddNewEvent">Add new event</string>
+    <string name="ShowEvents">Show events</string>
+    <string name="ShowVenues">Show and edit Venues</string>
+    <string name="NewEventText">Create new event</string>
+    <string name="EventLocation">Event Location</string>
+    <string name="EventDate"> Event Date</string>
+    <string name="EventTicketAmount">Event Ticket Amount</string>
+    <string name="CreateEvent">Create Event</string>
+    <string name="ChooseAvailableEvent">Choose Available Event</string>
+    <string name="ShowMyVenues">Show My Venues</string>
+    <string name="signUp">Sign Up</string>
+    <string name="BuyTickets">Buy Tickets</string>
+    <string name="SeeMyTickets">See my tickets</string>
+
+</resources>
